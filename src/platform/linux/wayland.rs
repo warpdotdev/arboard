@@ -173,7 +173,7 @@ impl Clipboard {
 }
 
 fn process_result(
-	result: Result<(os_pipe::PipeReader, String), wl_clipboard_rs::paste::Error>,
+	result: Result<(paste::PipeReader, String), wl_clipboard_rs::paste::Error>,
 ) -> Result<String, Error> {
 	match result {
 		Ok((mut pipe, _)) => {

@@ -29,7 +29,6 @@ dependencies = [
  "objc",
  "objc-foundation",
  "objc_id",
- "os_pipe",
  "parking_lot",
  "thiserror",
  "windows-sys 0.48.0",
