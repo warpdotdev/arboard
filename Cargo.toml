@@ -44,6 +44,7 @@ log = "0.4"
 x11rb = { version = "0.13" }
 wl-clipboard-rs = { version = "0.8", optional = true }
 image = { version = "0.25", optional = true, default-features = false, features = ["png"] }
+os_pipe = { version = "1" }
 parking_lot = "0.12"
 
 [[example]]
