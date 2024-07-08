@@ -23,7 +23,6 @@ use std::{
 	thread::{self, JoinHandle},
 	thread_local,
 	time::{Duration, Instant},
-	usize,
 };
 
 use log::{error, trace, warn};
