@@ -9,7 +9,6 @@ fn main() {
 	let alt_text = "Hello, world!\nThis is HTML.";
 	clipboard.set_html(html, Some(alt_text)).unwrap();
 	println!(
-		"But now the clipboard text should be this HTML: \"{}\" with this alternate text: \"{}\"",
-		html, alt_text
+		"But now the clipboard text should be this HTML: \"{html}\" with this alternate text: \"{alt_text}\""
 	);
 }

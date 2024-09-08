@@ -269,7 +269,7 @@ mod tests {
 			match ctx.get_text() {
 				Ok(text) => assert!(text.is_empty()),
 				Err(Error::ContentNotAvailable) => {}
-				Err(e) => panic!("unexpected error: {}", e),
+				Err(e) => panic!("unexpected error: {e}"),
 			};
 
 			// confirm it is OK to clear when already empty.
@@ -284,7 +284,7 @@ mod tests {
 			match ctx.get_text() {
 				Ok(text) => assert!(text.is_empty()),
 				Err(Error::ContentNotAvailable) => {}
-				Err(e) => panic!("unexpected error: {}", e),
+				Err(e) => panic!("unexpected error: {e}"),
 			};
 		}
 		{

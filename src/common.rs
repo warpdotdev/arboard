@@ -81,7 +81,7 @@ impl std::fmt::Debug for Error {
 			ConversionFailure,
 			Unknown { .. }
 		);
-		f.write_fmt(format_args!("{} - \"{}\"", name, self))
+		f.write_fmt(format_args!("{name} - \"{self}\""))
 	}
 }
 
